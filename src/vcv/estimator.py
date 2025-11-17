@@ -16,14 +16,15 @@
 # ------------------------------
 
 import numpy as np
+import pandas as pd
 from typing import Tuple
 from src.vcv.utils import *
 
-def vcv_estimation(returns: np.ndarray) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, float]:
+def vcv_estimation(returns: np.ndarray) -> Tuple[np.ndarray, np.ndarray, float]:
     """
     Ledoit-Wolf shrinkage estimator based on Returns
     :param returns: Asset Returns
-    :return: LW vcv, vol, correl + Empirical vcv, vol, correl + delta
+    :return: LW + Empirical vol, LW + Empirical correl, delta
     """
     # Empirical vcv and correl matrix
     vcv_emp = np.cov(returns.T)
@@ -47,7 +48,17 @@ def vcv_estimation(returns: np.ndarray) -> Tuple[np.ndarray, np.ndarray, np.ndar
     vcv_lw = delta*f + (1-delta)*vcv_emp
     vol_lw = np.sqrt(np.diag(vcv_lw))
     correl_lw = np.diag(1/vol_lw).dot(vcv_lw).dot(np.diag(1/vol_lw))
-    return vcv_lw, vol_lw, correl_lw, vcv_emp, vol_emp, correl_emp, delta
+    # Output
+    vol = pd.DataFrame([vol_lw, vol_emp], index=['Vol LW', 'Vol Emp']).T*np.sqrt(260)
+    pd.DataFrame(np.vstack((correl_lw, correl_emp)))
+
+    correl = correl_lw.copy()
+    for i in range(n):
+        for j in range(i):
+            correl[i,j] = correl_emp[i,j]
+    correl = pd.DataFrame(correl)
+
+    return vol, correl, delta
 
 
 
