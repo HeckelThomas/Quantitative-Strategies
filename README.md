@@ -10,6 +10,6 @@ Collection of Projects to Test Various Quantitative Strategies / Approaches
 
 ## Reproduction
 ```bash
-    python -m venv .venv
-    source .venv\Scripts\activate
-    pip install -r requirements.txt
+python -m venv .venv
+source .venv\Scripts\activate
+pip install -r requirements.txt
