@@ -4,21 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbf9448-8114-45e9-889d-e09d7d403aee" name="Changes" comment="README.md file">
-      <change afterPath="$PROJECT_DIR$/Docs/index.md" afterDir="false" />
+    <list default="true" id="5dbf9448-8114-45e9-889d-e09d7d403aee" name="Changes" comment="index.md file">
+      <change afterPath="$PROJECT_DIR$/example/run_vcv_estimator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vcv/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Quantitative-Strategies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Quantitative-Strategies.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="35WVicZBvApLeoSXF265BlgFnMM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,13 +37,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.estimator.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.run_vcv_estimator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hecke\PycharmProjects\Quantitative-Strategies\src" />
+      <recent name="C:\Users\hecke\PycharmProjects\Quantitative-Strategies\src\vcv" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763229271553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="index.md file">
+      <option name="closed" value="true" />
+      <created>1763230427356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763230427356</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit: Skeleton Project" />
     <MESSAGE value="README.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md file" />
+    <MESSAGE value="index.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.md file" />
   </component>
 </project>
