@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dbf9448-8114-45e9-889d-e09d7d403aee" name="Changes" comment="Factor Regressions Exercice">
-      <change afterPath="$PROJECT_DIR$/docs/_config.yml" afterDir="false" />
+    <list default="true" id="5dbf9448-8114-45e9-889d-e09d7d403aee" name="Changes" comment="Add Jekyll config to render Markdown">
+      <change afterPath="$PROJECT_DIR$/src/factor_regressions/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Python Training Solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Python Training Solutions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764176375807</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Jekyll config to render Markdown">
+      <option name="closed" value="true" />
+      <created>1764178368480</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764178368480</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +197,7 @@
     <MESSAGE value="readme" />
     <MESSAGE value="index" />
     <MESSAGE value="Factor Regressions Exercice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factor Regressions Exercice" />
+    <MESSAGE value="Add Jekyll config to render Markdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Jekyll config to render Markdown" />
   </component>
 </project>
